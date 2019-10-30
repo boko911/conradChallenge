@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    color: #f66095;
+    font-family: 'Molengo', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    background-color: #393e46;
+  }
+  
+  
+  
+  
