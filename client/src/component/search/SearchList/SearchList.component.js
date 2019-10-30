@@ -34,6 +34,7 @@ class SearchList extends Component {
                                     <input 
                                         type='image' 
                                         src={bookmark_icon} 
+                                        alt="Add"
                                         className={styles.inputSearchList}
                                         onClick={ () => { this.props.addBookmark_react(item); this.props.addBookmark({item}); this.props.getBookmarks({item})}}/>
                                 </td>

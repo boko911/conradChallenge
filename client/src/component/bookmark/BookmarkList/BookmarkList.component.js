@@ -33,6 +33,7 @@ class BookmarkList extends Component {
                                         type='image' 
                                         src={delete_icon} 
                                         className={styles.inputSearchList}
+                                        alt="delete"
                                         onClick={() => {
                                             console.log(bookmark.index);
                                             this.props.deleteBookmark_react(bookmark.id); 
